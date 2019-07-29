@@ -55,6 +55,7 @@ export default props => {
             data={alunos} 
             renderItem={renderItem} 
             keyExtractor= {(_,index) => index.toString()}/>
+            
         </ScrollView>
     )
 
